@@ -34,5 +34,5 @@ for i in points:
     sum += i
 Sigma = round(sum * deltax, 5)
 Out = open('output.txt', 'w+')
-Out.write(str(Sigma))
+Out.write(("The integral sum is " + str(Sigma)))
 Out.close()
